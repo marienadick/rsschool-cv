@@ -18,3 +18,18 @@ I take setting the task and solving it quite seriously, I never procrastinate an
 * **JavaScript (basic)**
 * **Git**
 * **BEM (Block Element Modifier)**
+
+## Code Example
+```
+let n = 10;
+
+nextPrime:
+for (let i = 2; i <= n; i++) { 
+
+  for (let j = 2; j < i; j++) { 
+    if (i % j == 0) continue nextPrime; 
+  }
+
+  console.log(i); 
+}
+```
